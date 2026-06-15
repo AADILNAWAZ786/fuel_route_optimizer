@@ -69,7 +69,15 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-ORS_API_KEY=YOUR_OPENROUTESERVICE_API_KEY
+SECRET_KEY=your_secret_key
+
+DB_NAME=fuel_optimizer
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+
+ORS_API_KEY=your_openrouteservice_api_key
 ```
 
 ---
